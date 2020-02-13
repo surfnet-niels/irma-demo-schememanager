@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo DigiD Proef persoonsgegevens</en>
-		<nl>Demo DigiD Proef persoonsgegevens</nl>
+		<en>Citizen data</en>
+		<nl>Persoonsgegevens</nl>
 	</Name>
 	<ShortName>
-		<en>Demo DigiD Proef persoonsgegevens</en>
-		<nl>Demo DigiD Proef persoonsgegevens</nl>
+		<en>Citizen data</en>
+		<nl>Persoonsgegevens</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>digidproef</IssuerID>
@@ -14,11 +14,36 @@
 		<en>Your personal data, from the Dutch population register</en>
 		<nl>Uw persoonsgegevens, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
-	<IssueURL>
-		<en></en>
-		<nl></nl>
+	<IssueURL isUniversalLink="true">
+		<en>https://mul-mmi.belastingdienst.nl/ont</en>
+		<nl>https://mul-mmi.belastingdienst.nl/ont</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<ForegroundColor>#000000</ForegroundColor>
+	<BackgroundGradientStart>#FFFFFF</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
+	<IsInCredentialStore>true</IsInCredentialStore>
+	<Category>
+		<en></en>
+		<nl>Persoonsgegevens</nl>
+	</Category>
+	<FAQIntro>
+		<en></en>
+		<nl></nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en></en>
+		<nl></nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en></en>
+		<nl></nl>
+	</FAQContent>
+	<FAQHowto>
+		<en></en>
+		<nl></nl>
+	</FAQHowto>
 
 	<Attributes>
 		<Attribute id="firstnames">
@@ -131,7 +156,7 @@
 				<nl>Uw Burgerservicenummer (BSN)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="photo">
+		<Attribute id="photo" displayHint="portraitPhoto">
 			<Name>
 				<en>Photo</en>
 				<nl>Foto</nl>
