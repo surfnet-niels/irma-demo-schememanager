@@ -9,7 +9,7 @@
 		<nl>Demo SURF</nl>
 	</Name>
 	<SchemeManager>irma-demo</SchemeManager>
-	<ContactAddress>https://surfnet.nl</ContactAddress>
-	<ContactEMail>info@surfnet.nl</ContactEMail>
+	<ContactAddress>https://surf.nl</ContactAddress>
+	<ContactEMail>info@surf.nl</ContactEMail>
 	<baseURL></baseURL>
 </Issuer>
