@@ -1,22 +1,22 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo SURFdrive license</en>
-		<nl>Demo SURFdrive licentie</nl>
+		<en>Demo SURF eduID</en>
+		<nl>Demo SURF eduID</nl>
 	</Name>
 	<ShortName>
-		<en>Demo SURFdrive license</en>
-		<nl>Demo SURFdrive licentie</nl>
+		<en>Demo SURF eduID</en>
+		<nl>Demo SURF eduID</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>surf</IssuerID>
-	<CredentialID>surfdrive</CredentialID>
+	<CredentialID>eduid</CredentialID>
 	<Description>
-		<en>Your SURFdrive licence, for logging in at SURFdrive</en>
-		<nl>Uw SURFdrive licentie, waarmee u in kunt loggen op SURFdrive</nl>
+		<en>Your eduID</en>
+		<nl>Uw eduID</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.surf.surfdrive.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.surf.surfdrive.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.surf.eduid.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.surf.eduid.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
